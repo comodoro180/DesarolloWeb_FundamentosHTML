@@ -35,16 +35,62 @@
 	</nav>
 
 	<section>
-		<h2>Información personal</h2>
-		<img src="imagenes/foto.jpg" alt="Foto Carlos A. Hoyos R." title="Carlos A. Hoyos R." width="200px">
-		<p>
-			Ingeniero de sistemas apasionado por la programación, responsable y comprometido con su profesión. Soy una persona pragmática, enfocado en la calidad y matenibilidad de los sistemas. Me gusta compartir el conocimiento con las persona que trabajo. Tengo 14 años de experiencia laboral desempeñandome en las áreas de informática desde el rol de desarrollador pasando como ingeriero de software hasta analista de sistemas; esta experiencia me ha permitido enrriquecer mi inteligencia emocional brindadome herramientas poderosas en los momentos de trabajo bajo presión y dirección en grupo de personas.		
-		</p>
-		Idiomas que compredo:	
-		<ul> 
-			<li>Español</li>
-			<li>Inglés</li>
-		</ul>
+		<h2>Educación</h2>
+		<table border="1" cellpadding="5" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1991</td>
+					<td>Colegio Baudilio Montoya</td>
+					<td>La Bella, Quindio</td>
+					<td>Si</td>					
+				</tr>				
+				<tr>
+					<td>1997</td>
+					<td>Colegio Deogracias Cardona</td>
+					<td>Pereira, Risaralda</td>
+					<td>Si</td>					
+				</tr>
+				<tr>
+					<td>2011</td>
+					<td>Universidad Cooperativa de Colombia</td>
+					<td>Cali, Colombia</td>
+					<td>Si</td>					
+				</tr>								
+			</tbody>
+		</table>
+
+		<h2>Agregar estudios</h2>
+		<form action="">
+			<label for="anio">Año:</label>				
+			<select name="anio">
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+			</select>
+
+			<p>
+				<label for="institucion">Institución:</label>				
+				<input type="text" name="institucion" required>
+			</p>
+
+			<p>
+				<label for="lugar">Lugar: </label>
+				<textarea name="lugar" cols="26" rows="3" required></textarea>
+			</p>
+
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+
+		</form>
 	</section>
 
 	<hr/>
